@@ -1,10 +1,11 @@
-// Import the getLeagueRosters function from leagueRosters.js
-import { getLeagueRosters } from './leagueRosters';
+// Import the necessary functions and modules
 import { getLeagueData } from './leagueData';
 import { leagueID } from '$lib/utils/leagueInfo';
 import { waitForAll } from './multiPromise';
 import { get } from 'svelte/store';
-import {upcomingDraft, previousDrafts} from '$lib/stores';
+import { upcomingDraft, previousDrafts } from '$lib/stores'; // Make sure to check if these imports are used elsewhere in your code
+
+// Import the getLeagueRosters function from leagueRosters.js
 import { getLeagueRosters } from './leagueRosters';
 
 export const getUpcomingDraft = async () => {
