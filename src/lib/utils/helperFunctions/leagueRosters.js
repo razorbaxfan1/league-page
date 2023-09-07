@@ -51,7 +51,7 @@ function calculateTeamFantasyScore(players) {
 export const getLeagueMatchupsAndScores = async () => {
   const queryLeagueID = leagueID;
 
-  const res = await fetch(`https://api.sleeper.app/v1/league/${queryLeagueID}/rosters`, { compress: true }).catch((err) => { console.error(err); });
+  const res = await fetch(`https://api.sleeper.app/v1/league/1004576672147968000/rosters`, { compress: true }).catch((err) => { console.error(err); });
   const data = await res.json().catch((err) => { console.error(err); });
 
   if (res.ok) {
