@@ -1,14 +1,13 @@
 /*   STEP 1   */
 export const leagueID = "1004576672147968000"; // your league ID
 export const leagueName = "FCC/Waterway Dynasty League"; // your league name
-export const dues = 100; // (optional) used in template constitution page
+export const dues = null; // (optional) used in template constitution page
 export const dynasty = true; // true for dynasty leagues, false for redraft and keeper
 export const enableBlog = false; // requires VITE_CONTENTFUL_ACCESS_TOKEN and VITE_CONTENTFUL_SPACE environment variables
 
 /*   STEP 2   */
 export const homepageText = `
-  <p>FCC/Waterway Dynasty Fantasy Football League</p>
-  <p>Welcome to the 2023-24 NFL Season! This page is a work in progress and will help track dynasty league scores.</p>
+  <p>Welcome to the 2023-24 FCC/Waterway Dynasty Fantasy Football League and the new NFL Season! This page is a work in progress and will help track dynasty league scores.</p>
 `;
 
 /*   STEP 3   */
@@ -23,7 +22,7 @@ https://github.com/nmelhado/league-page/blob/master/TRAINING_WHEELS.md#ii-adding
 export const managers = [
     {
     "managerID": "547303727965245440",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    "name": "Who Dey & The Blowfish",
+    "name": "Brian Phillips",
     "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     "location": null, // (optional)
     "bio": null,
@@ -45,7 +44,7 @@ export const managers = [
     },
     {
     "managerID": "749460957293707264",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    "name": "Dallas Don’s Divine Dudes",
+    "name": "Don Morrow",
     "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     "location": null, // (optional)
     "bio": null,
@@ -67,7 +66,7 @@ export const managers = [
     },
     {
     "managerID": "825093738396221440",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    "name": "jacobmorrow99",
+    "name": "Jacob Morrow",
     "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     "location": null, // (optional)
     "bio": null,
@@ -89,7 +88,7 @@ export const managers = [
     },
   {
     "managerID": "1004105586193100800",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    "name": "SackReligious",
+    "name": "Bradley Webber",
     "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     "location": null, // (optional)
     "bio": null,
@@ -111,7 +110,7 @@ export const managers = [
     },
   {
     "managerID": "1004259842594369536",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    "name": "Harristoolong",
+    "name": "Steve Peterson",
     "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     "location": null, // (optional)
     "bio": null,
@@ -133,7 +132,7 @@ export const managers = [
     },
   {
     "managerID": "1004583081023475712",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    "name": "Jeff3550",
+    "name": "Jeff Pryor",
     "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     "location": null, // (optional)
     "bio": null,
@@ -155,7 +154,7 @@ export const managers = [
     },
   {
     "managerID": "1004586482268516352",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    "name": "The Swift Taylor",
+    "name": "Trace Weaver",
     "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     "location": null, // (optional)
     "bio": null,
@@ -177,7 +176,7 @@ export const managers = [
     },
   {
     "managerID": "1004590879744577536",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    "name": "Aiyukulele",
+    "name": "Ron Miller",
     "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     "location": null, // (optional)
     "bio": null,
@@ -199,7 +198,7 @@ export const managers = [
     },
   {
     "managerID": "1004600672865660928",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    "name": "Mortwon80",
+    "name": "Mark Mortimer",
     "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     "location": null, // (optional)
     "bio": null,
@@ -221,7 +220,7 @@ export const managers = [
     },
   {
     "managerID": "1004608727841972224",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    "name": "WaterwayNoob",
+    "name": "Scott LeMaster",
     "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     "location": null, // (optional)
     "bio": null,
@@ -243,7 +242,7 @@ export const managers = [
     },
   {
     "managerID": "1004781679359225856",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    "name": "BAMA Maniacs",
+    "name": "David Cook",
     "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     "location": null, // (optional)
     "bio": null,
@@ -265,7 +264,7 @@ export const managers = [
     },
   {
     "managerID": "1004898984846135296",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    "name": "kwmelanz",
+    "name": "Kenny Melancon",
     "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     "location": null, // (optional)
     "bio": null,
@@ -287,7 +286,7 @@ export const managers = [
     },
   {
     "managerID": "1004915475366711296",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    "name": "Oldestgoat",
+    "name": "Ken Lassiter",
     "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     "location": null, // (optional)
     "bio": null,
@@ -309,7 +308,7 @@ export const managers = [
     },
   {
     "managerID": "1004942123709378560",  // ID of the roster that the manager manages (look at the order of the power rankings graph)
-    "name": "ryhoot",
+    "name": "Ryan Hueter",
     "tookOver": null, // (optional) used if a manager took over a team, delete this line or change to null otherwise
     "location": null, // (optional)
     "bio": null,
