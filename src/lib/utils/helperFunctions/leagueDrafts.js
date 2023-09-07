@@ -1,3 +1,5 @@
+// Import the getLeagueRosters function from leagueRosters.js
+import { getLeagueRosters } from './leagueRosters';
 import { getLeagueData } from './leagueData';
 import { leagueID } from '$lib/utils/leagueInfo';
 import { waitForAll } from './multiPromise';
